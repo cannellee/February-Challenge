@@ -7,9 +7,9 @@ Ce projet est conçu pour apprendre les bases du C en 29 jours. Durant tout le m
 Chaque fichier contient l'énoncé de l'exercice ainsi que code source.<br>
 <br>
 **<u>Comment exécuter les exercices<br></u>**
-  git clone https://github.com/cannellee/February-Challenge.git<br>
-  gcc -o exercice exercice.c<br>
-  ./exercice<br>
+git clone https://github.com/cannellee/February-Challenge.git<br>
+```gcc -o exercice exercice.c<br>```
+```./exercice<br>```
 <br>
 <br>
 ## 🇬🇧 ~ English :<br>
