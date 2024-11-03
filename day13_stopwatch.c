@@ -12,7 +12,6 @@ int main() {
     time(&debut);
 
     printf("The timer starts, enter what you want : ");
-    //Things to be timed :
     scanf("%s", ask);
 
     time(&fin);

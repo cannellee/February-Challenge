@@ -72,7 +72,6 @@ unsigned long bin_to_dec(unsigned long binary) {
 	return decimal;
 }
 
-
 char* dec_to_hex(unsigned long decimal) {
 	static char hex_value[MAX_INPUT_SIZE];
 	strcpy(hex_value, "");
@@ -98,7 +97,6 @@ char* dec_to_hex(unsigned long decimal) {
 	return hex_value;
 }
 
-
 int main() {
 	char request;
 	printf("Write B/b for Binary, D/d for Decimal or H/h for Hexadecimal : ");
@@ -117,7 +115,6 @@ int main() {
 			printf("Decimal : %lu\n", bin_to_dec(binary));
 			printf("Hexadecimal : %s\n", dec_to_hex(bin_to_dec(binary)));
 			break;
-
 		case 'd':
 			char decimal_input[MAX_INPUT_SIZE];
 			printf("Enter the decimal : ");
@@ -130,7 +127,6 @@ int main() {
 			printf("Binary : %lu\n", dec_to_bin(decimal));
 			printf("Hexadecimal : %s\n", dec_to_hex(decimal));
 			break;
-
 		case 'h':
 			char hex_input[MAX_INPUT_SIZE];
 			printf("Enter the hexadecimal : ");
@@ -147,6 +143,5 @@ int main() {
 			printf("Error");
 			break;
 	}
-
 	return 0;
 }

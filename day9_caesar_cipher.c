@@ -33,7 +33,7 @@ int main() {
 
         char cdc[100];
         printf("Enter the text to encrypt: ");
-        scanf(" %[^\n]s", cdc); //Reading text with spaces
+        scanf(" %[^\n]s", cdc);
 
         for (int j = 0; j < strlen(cdc); j++) {
             if (isalpha(cdc[j])) {

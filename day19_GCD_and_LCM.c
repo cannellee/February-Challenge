@@ -17,6 +17,7 @@ int lcm(int a, int b, int result_gcd) {
 	if (result_gcd==0) return 0;
 	return (a*b)/result_gcd;
 }
+
 int main() {
 	int a=0;
 	int b=0;

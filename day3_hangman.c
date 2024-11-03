@@ -20,11 +20,9 @@ int main() {
 	int size=sizeof(list_words)/sizeof(list_words[0]);
     int num_word_chosen=rand()%size;
 
-    //Initiation of word_chosen -> copy of the word chosen
     char word_chosen[strlen(list_words[num_word_chosen])+1];
     strcpy(word_chosen, list_words[num_word_chosen]);
 
-    //Initiation of hidden_word -> "_" in each character
     char hidden_word[strlen(list_words[num_word_chosen])+1];
     for (int i = 0; i < strlen(list_words[num_word_chosen])*2-1; i+=2) {
     	hidden_word[i]='_';
@@ -33,10 +31,9 @@ int main() {
     hidden_word[strlen(list_words[num_word_chosen])*2-1]='\0';
 
     char guess;
-    char false_letters[27]={'\0'}; //26 letters + 1 '\0'
+    char false_letters[27]={'\0'};
     int remaining_shots=11;
 
-    //As long as the hanging is not over
     while (remaining_shots>=0 && strcmp(word_chosen, hidden_word) != 0) {
     	printf("Number of remaining shots : %d\n", remaining_shots+1);
         printf(" _______\n");
@@ -107,7 +104,7 @@ int main() {
 		scanf(" %c", &guess);
 		if (!isalpha(guess)) {
 			printf("Invalid input! Please enter an alphabetic character.\n\n");
-		    continue; // Skip the rest of the loop and ask for input again
+		    continue;
 		}
 		guess=tolower(guess);
 		printf("\n\n");
@@ -125,7 +122,6 @@ int main() {
 				}
 			}
 
-			//If the letter is not found in the word
 			if (!found) {
 				int already_guessed=0;
 				for (int j=0; false_letters[j]!='\0'; j++) {
@@ -142,7 +138,6 @@ int main() {
 					printf("You've already given this letter!\n\n");
 				}
 			} else {
-				//Update hidden_word with the guessed letter
 				for (int k=0; word_chosen[k]!='\0'; k++) {
 					if (word_chosen[k]==tolower(guess)) {
 						hidden_word[k*2]=tolower(guess);
