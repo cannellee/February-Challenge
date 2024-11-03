@@ -7,9 +7,11 @@ Ce projet est conçu pour apprendre les bases du C en 29 jours. Durant tout le m
 Chaque fichier contient l'énoncé de l'exercice ainsi que code source.<br>
 <br>
 **<u>Comment exécuter les exercices<br></u>**
+<pre>
   git clone https://github.com/cannellee/February-Challenge.git<br>
   gcc -o exercice exercice.c<br>
   ./exercice<br>
+</pre>
 <br>
 <br>
 ## 🇬🇧 ~ English :<br>
@@ -20,6 +22,8 @@ This project is designed to teach the basics of C in 29 days. Throughout Februar
 Each file contains the exercise statement and source code.<br>
 <br>
 **<u>How to run the exercises<br></u>**
+<pre>
   git clone https://github.com/cannellee/February-Challenge.git<br>
   gcc -o exercice exercice.c<br>
   ./exercice
+</pre>
