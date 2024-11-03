@@ -5,21 +5,21 @@ Ce projet est conçu pour apprendre les bases du C en 29 jours. Durant tout le m
 <br>
 Structure du projet<br>
 Chaque fichier contient l'énoncé de l'exercice ainsi que code source.<br>
-
-Comment exécuter les exercices
-  git clone https://github.com/cannellee/February-Challenge.git
-  gcc -o exercice exercice.c
-  ./exercice
-
-
-🇬🇧 ~ English :
-Description
-This project is designed to teach the basics of C in 29 days. Throughout February: one day = one exercise. The exercises are relatively easy, but will help you familiarize yourself with the language.
-
-Project structure
-Each file contains the exercise statement and source code.
-
-How to run the exercises
-  git clone https://github.com/cannellee/February-Challenge.git
-  gcc -o exercice exercice.c
+<br>
+Comment exécuter les exercices<br>
+  git clone https://github.com/cannellee/February-Challenge.git<br>
+  gcc -o exercice exercice.c<br>
+  ./exercice<br>
+<br>
+<br>
+🇬🇧 ~ English :<br>
+Description<br>
+This project is designed to teach the basics of C in 29 days. Throughout February: one day = one exercise. The exercises are relatively easy, but will help you familiarize yourself with the language.<br>
+<br>
+Project structure<br>
+Each file contains the exercise statement and source code.<br>
+<br>
+How to run the exercises<br>
+  git clone https://github.com/cannellee/February-Challenge.git<br>
+  gcc -o exercice exercice.c<br>
   ./exercice
